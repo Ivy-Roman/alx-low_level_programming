@@ -3,6 +3,7 @@
 /**
  * main - Entry point
  * Description: This program prints the string in the puts function
+ * Return: 0
  */
 int main(void)
 {
