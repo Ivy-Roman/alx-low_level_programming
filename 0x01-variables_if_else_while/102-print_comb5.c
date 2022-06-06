@@ -18,19 +18,22 @@ int main(void)
 		{
 			for (b = d; b <= '9'; b++)
 			{
-				putchar(d);
-				putchar(c);
-				putchar(' ');
-				putchar(b);
-				putchar(a);
-
-				if (!((d == '9' && c == '8') && (b == '9' && a == '9')))
+				for (a = c + 1; a <= '9'; a++)
 				{
-					putchar(',');
+					putchar(d);
+					putchar(c);
 					putchar(' ');
+					putchar(b);
+					putchar(a);
+
+					if (!((d == '9' && c == '8') && (b == '9' && a == '9')))
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
+				a = '0';
 			}
-			a = '0';
 		}
 	}
 	putchar('\n');
