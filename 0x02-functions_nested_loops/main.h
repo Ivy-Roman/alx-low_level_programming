@@ -11,4 +11,10 @@
 
 int _putchar(char c);
 
+/**
+ * print_alphabet - print lowercase alphabet followed by a new line
+ */
+
+void print_alphabet(void);
+
 #endif
