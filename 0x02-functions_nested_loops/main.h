@@ -40,4 +40,30 @@ int _isalpha(int c);
  */
 
 int print_sign(int n);
+
+/**
+ * _abs(int) - computes the absolute value of an integer.
+ */
+
+int _abs(int);
+
+/**
+ * print_last_digit(int) - prints the last digit of a number.
+ */
+
+int print_last_digit(int);
+
+/**
+ * jack_bauer(void) - prints every minute of the day of Jack Bauer
+ */
+
+void jack_bauer(void);
+
+/**
+ * times_table(void) - prints the 9 times table, starting with 0
+ */
+
+void times_table(void);
+
+
 #endif
