@@ -75,6 +75,6 @@ void print_triangle(int size);
  * print_number(int n) -  prints an integer
  */
 
-void print_number(int n)
+void print_number(int n);
 
 #endif
