@@ -25,10 +25,10 @@ void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 
 /**
- * mul(int a, int b) - multiplies two integers.
+ * _strlen(char *s) -  returns the length of a string.
  */
 
-int mul(int a, int b);
+int _strlen(char *s);
 
 /**
  * print_numbers(void) - prints the numbers, from 0 to 9
