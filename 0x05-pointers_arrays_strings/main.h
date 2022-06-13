@@ -31,10 +31,11 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 
 /**
- * print_numbers(void) - prints the numbers, from 0 to 9
+ * _puts(char *str) -  prints a string, followed by a new line,
+ * to standard output.
  */
 
-void print_numbers(void);
+void _puts(char *str);
 
 /**
  * print_most_numbers(void) -  prints the numbers, from 0 to 9
