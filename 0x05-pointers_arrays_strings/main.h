@@ -19,10 +19,10 @@ int _putchar(char c);
 void reset_to_98(int *n);
 
 /**
- * _isdigit(int c) - checks for a digit (0 through 9).
+ * swap_int(int *a, int *b) - swaps the values of two integers
  */
 
-int _isdigit(int c);
+void swap_int(int *a, int *b);
 
 /**
  * mul(int a, int b) - multiplies two integers.
