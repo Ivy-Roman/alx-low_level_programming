@@ -38,10 +38,10 @@ int _strlen(char *s);
 void _puts(char *str);
 
 /**
- * print_most_numbers(void) -  prints the numbers, from 0 to 9
+ * print_rev(char *s) - prints a string, in reverse
  */
 
-void print_most_numbers(void);
+void print_rev(char *s);
 
 /**
  * more_numbers(void); - prints 10 times the numbers, from 0 to 14
