@@ -50,10 +50,10 @@ void print_rev(char *s);
 void rev_string(char *s);
 
 /**
- * print_line(int n) - draws a straight line in the terminal
+ * puts2(char *str) - prints every other character of a string
  */
 
-void print_line(int n);
+void puts2(char *str);
 
 /**
  * print_diagonal(int n) - draws a diagonal line on the terminal
