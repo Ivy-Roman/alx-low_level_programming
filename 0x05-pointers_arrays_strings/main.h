@@ -44,10 +44,10 @@ void _puts(char *str);
 void print_rev(char *s);
 
 /**
- * more_numbers(void); - prints 10 times the numbers, from 0 to 14
+ * rev_string(char *s) - reverses a string
  */
 
-void more_numbers(void);
+void rev_string(char *s);
 
 /**
  * print_line(int n) - draws a straight line in the terminal
