@@ -56,27 +56,29 @@ void rev_string(char *s);
 void puts2(char *str);
 
 /**
- * print_diagonal(int n) - draws a diagonal line on the terminal
+ * puts_half(char *str) - prints half of a string
  */
 
-void print_diagonal(int n);
+void puts_half(char *str);
 
 /**
- * print_square(int size) -  prints a square, followed by a new line.
+ * print_array(int *a, int n) - prints n elements of an array
+ * of integers
  */
 
-void print_square(int size);
+void print_array(int *a, int n);
 
 /**
- * print_triangle(int size) - prints a triangle, followed by a new line
+ * *_strcpy(char *dest, char *src) - copies the string
+ * pointed to by src
  */
 
-void print_triangle(int size);
+char *_strcpy(char *dest, char *src);
 
 /**
- * print_number(int n) -  prints an integer
+ * _atoi(char *s) - convert a string to an integer
  */
 
-void print_number(int n);
+int _atoi(char *s);
 
 #endif
