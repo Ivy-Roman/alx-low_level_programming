@@ -17,12 +17,11 @@ int _putchar(char c);
 
 char *_strcat(char *dest, char *src);
 
-
 /**
- * swap_int(int *a, int *b) - swaps the values of two integers
+ * *_strncat(char *dest, char *src, int n) - concatenates two strings
  */
 
-void swap_int(int *a, int *b);
+char *_strncat(char *dest, char *src, int n);
 
 /**
  * _strlen(char *s) -  returns the length of a string.
