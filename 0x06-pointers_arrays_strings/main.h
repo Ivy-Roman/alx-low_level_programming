@@ -24,10 +24,10 @@ char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
 
 /**
- * _strlen(char *s) -  returns the length of a string.
+ * *_strncpy(char *dest, char *src, int n) - copies a string
  */
 
-int _strlen(char *s);
+char *_strncpy(char *dest, char *src, int n);
 
 /**
  * _puts(char *str) -  prints a string, followed by a new line,
