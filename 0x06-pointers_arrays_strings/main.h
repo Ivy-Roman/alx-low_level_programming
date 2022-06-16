@@ -30,54 +30,59 @@ char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
 
 /**
- * _puts(char *str) -  prints a string, followed by a new line,
- * to standard output.
+ * _strcmp - compare two strings
+ * @s1: one string
+ * @s2: one string
+ * Return: int that tells num spaces in between
  */
 
-void _puts(char *str);
+int _strcmp(char *s1, char *s2);
 
 /**
- * print_rev(char *s) - prints a string, in reverse
+ * reverse_array - reverse array elements
+ * @a: array
+ * @n: number of elements in array
  */
 
-void print_rev(char *s);
+void reverse_array(int *a, int n);
 
 /**
- * rev_string(char *s) - reverses a string
+ * string_toupper - capitalize all letters in string
+ * @s: string to manipulate
+ * Return: string with all letters capitalized
  */
 
-void rev_string(char *s);
+char *string_toupper(char *);
 
 /**
- * puts2(char *str) - prints every other character of a string
+ * string_toupper - capitalize first letter of all words
+ * @s: string to manipulate
+ * Return: string
  */
 
-void puts2(char *str);
+char *cap_string(char *s);
 
 /**
- * puts_half(char *str) - prints half of a string
+ * rot13 - encode string using rot13
+ * @s: string to encode
+ * Return: encoded string
  */
 
-void puts_half(char *str);
+char *rot13(char *s);
 
 /**
- * print_array(int *a, int n) - prints n elements of an array
- * of integers
+ * leet - encode string into 1337 leet
+ * @s: string to manipulate
+ * Return: string
  */
 
-void print_array(int *a, int n);
+char *leet(char *s);
 
 /**
- * *_strcpy(char *dest, char *src) - copies the string
- * pointed to by src
+ * print_number - print an integer, without using long, arrays, or pointers
+ * @n: number to be printed
  */
 
-char *_strcpy(char *dest, char *src);
-
-/**
- * _atoi(char *s) - convert a string to an integer
- */
-
-int _atoi(char *s);
+void print_number(int n);
 
 #endif
